@@ -1,0 +1,15 @@
+{
+  "name": "eris-embed-builder",
+  "version": "1.0.0",
+  "description": "- This repository is for those who want to make embeds in eris easier, without having to install packages.\r ## Portuguese\r   - Este repositório é para quem deseja fazer embeds no eris de forma mais fácil, sem precisar ficar instalando pacotes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eris": "^0.16.1"
+  }
+}
