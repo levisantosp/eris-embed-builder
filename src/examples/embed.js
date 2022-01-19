@@ -18,3 +18,5 @@ client.on('messageCreate', message => {
         embeds: [embed]
     })
 })
+
+client.connect()
