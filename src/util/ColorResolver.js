@@ -1,6 +1,6 @@
 module.exports = class ColorResolver {
     static resolve(color) {
-        if (typeof color !== 'string') throw new Error(`Unexpected type ${typeof color} while building the embed!`)
+        if (typeof color !== 'string') throw new Error(`The color type must be a string`)
         return parseInt(color.toUpperCase().replace('#', ''), 16)
     }
 }
