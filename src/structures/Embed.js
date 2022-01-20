@@ -9,7 +9,7 @@ module.exports = class Embed {
         this.fields = []
         this.image = null
         this.thumbnail = null
-        this.timestamp = new Date()
+        this.timestamp = null
         this.footer = null
         this.color = null
     }
