@@ -21,8 +21,8 @@ module.exports = class Embed {
      * @param {string} url 
      * @returns {Embed}
      */
-    setAuthor(name, iconURL, url) {
-        return this.author = { name, iconURL, url }
+    setAuthor(name, icon_url, url) {
+        return this.author = { name, icon_url, url }
     }
 
     /**
